@@ -49,6 +49,8 @@ class DailyActionPC extends Command
                 }
             });
 
+            $discord->run();
+
         } catch (\Exception $e) {
             Log::error("Impossible d'envoyer le nb d'actions PC :(", [
                 'message' => $e->getMessage(),
