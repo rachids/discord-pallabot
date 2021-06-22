@@ -6,7 +6,7 @@ Pour plus d'informations, visitez [Kraland Interactif](http://www.kraland.org/).
 ## Utilisation
 - Cloner ce repository
 - Installer les dépendances avec `composer install`
-- Mettre le token de votre bot discord dans `.env`
+- Mettre le token de votre bot discord dans `.env` _([suivre ce lien pour obtenir un token Discord](https://discord.com/developers/applications))_
 - Lancer le bot avec la commande suivante `php palladium bot:start`
 
 ## Commandes disponibles
