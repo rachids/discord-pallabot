@@ -7,7 +7,6 @@ use App\Entities\Discord\CommandEntity;
 use App\Entities\Discord\OptionEntity;
 use Discord\Discord;
 use Discord\DiscordCommandClient;
-use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Facades\Log;
 use LaravelZero\Framework\Commands\Command;
 

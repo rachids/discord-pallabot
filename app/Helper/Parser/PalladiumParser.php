@@ -29,8 +29,6 @@ class PalladiumParser extends AbstractParser
             preg_match('#-\d+#', $indice) => ':arrow_lower_right:',
         };
 
-        dump($emoji);
-
         return $indice . $emoji;
     }
 }
